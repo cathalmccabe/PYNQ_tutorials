@@ -8,7 +8,7 @@ If you are using the PYNQ-Z1 or PYNQ-Z2, first make sure the board files have be
 
 This tutorial will create a design for the PYNQ-Z2 (Zynq) board. You should be able to follow the instructions to create a similar design for other Zynq or Zynq Ultrascale+ boards. 
 
-* Open Vivado and create a new project. Select your Zynq board as the target. (In this example, the PYNQ-Z2 is chosen)
+* Open Vivado and create a new project. Select your Zynq board as the target. In this example, the PYNQ-Z2 is selected.
 
 ![./images/pynq_new_hw_proj_settings.gif](./images/pynq_new_hw_proj_settings.gif)
 
