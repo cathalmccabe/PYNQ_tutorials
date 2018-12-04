@@ -80,6 +80,11 @@ If you chose not to generate the bitstream in the Tcl file, you can generate it 
 
 The base overlay is already installed in the PYNQ image for the PYNQ-Z1/PYNQ-Z2 boards. If this was a new overlay, the .bit and .tcl could be copied to the board. This will be covered in a later tutorial. 
 
+The block design for the *base* overlay should now be created. 
+
+![pynq_base_design.png](./images/pynq_base_design.png)
+
+The *base* design contains a large number of IP blocks and design elements which will be explored in the next tutorial. 
 
 ## Terminology
 
