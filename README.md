@@ -6,6 +6,14 @@
 
 
 
+## PS GPIO
+
+[Tutorial: Using PYNQ GPIO to control Zynq PS GPIO](./ps_gpio/readme.md)
+
+[Example: Using PS GPIO on the Kria KV260](./ps_gpio/kria_kv260_example/readme.md)
+
+
+
 ## Resources
 
 [PYNQ webpage](http://www.pynq.io/)
