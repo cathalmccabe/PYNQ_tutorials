@@ -60,7 +60,7 @@ If the IP is not ready to receive data from the M_AXIS port, then this port will
 ### Scatter gather support
 
 PYNQ doesn't support scatter gather functionality of the DMA. This is where data can be transfered from fragmented or disjointed memory locations. PYNQ only supports DMA from contiguous memory buffers. 
-Scatter-Gather can be enabled on the DMA to allow transfers greater than 8MB (from contiguous memory buffers). If you do this, you need to use the SG M_AXI ports instead od the M_AXI ports. This is not covered in this tutorial. 
+Scatter-Gather can be enabled on the DMA to allow transfers greater than 8MB (from contiguous memory buffers). If you do this, you need to use the SG M_AXI ports instead of the M_AXI ports. This is not covered in this tutorial. 
 An alternative to SG for large transfers is to segment your memory transfer in software into <8MB chunks and run multiple DMA transfers. 
 
 ## Configure the DMA
