@@ -144,7 +144,7 @@ It doesn't matter which HP port a DMA master is connected to.
 
 * Click **OK** to accept the changes
 
-The Block Design shoudl now look like this:
+The Block Design should now look like this:
 
 ![](./images/bd_axis_unconnected.png)
 
