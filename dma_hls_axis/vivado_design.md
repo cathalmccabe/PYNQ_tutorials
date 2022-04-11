@@ -1,6 +1,6 @@
 # Tutorial: using a HLS stream IP with DMA tutorial (Part 2: Vivado design)
 
-This is the second part of a tutorial that will show how to create a HLS IP and use it with an AXI DMA controlled by PYNQ. The [first part](https://discuss.pynq.io/t/tutorial-using-a-hls-stream-ip-with-dma-tutorial-part-1-hls-design/3344?u=cathalmccabe) of this tutorial showed how to build the HLS IP. This part 2 shows how to build the hardware and use the IP with PYNQ. [Part 3](https://discuss.pynq.io/t/tutorial-using-a-hls-stream-ip-with-dma-part-3-using-the-hls-ip-from-pynq/3346?u=cathalmccabe) shows how to use the design with PYNQ.
+This is the second part of a tutorial that will show how to create a HLS IP and use it with an AXI DMA controlled by PYNQ. [Part 1](https://discuss.pynq.io/t/tutorial-using-a-hls-stream-ip-with-dma-tutorial-part-1-hls-design/3344?u=cathalmccabe) of this tutorial showed how to build the HLS IP. This part 2 shows how to build the hardware and use the IP with PYNQ. [Part 3](https://discuss.pynq.io/t/tutorial-using-a-hls-stream-ip-with-dma-part-3-using-the-hls-ip-from-pynq/3346?u=cathalmccabe) shows how to use the design with PYNQ.
 
 This tutorial is based on the **v2.7** PYNQ image and will use Vivado **2020.2** (required for PYNQ v2.7). 
 

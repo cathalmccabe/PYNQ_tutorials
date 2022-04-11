@@ -46,7 +46,7 @@ The DMA has an AXI lite control port. This is used to write instructions to conf
 
 ### AXI Masters
 
-There are two AXI Master ports that will be connected to the DRAM. M_AXI\_**MM2S** (READ channel) and M_AXI\_**S2MM** (WRITE channel). AXI masters can read and write the memory. In this design they will be connected to the Zynq HP (High Performance) AXI Slave ports. The width of the HP ports can be changed in the Vivado design, however these ports are configured when PYNQ boots the board. You need to make sure the width of the ports in your Vivado design matches the PYNQ boot settings. In all official PYNQ images, the width of the HP ports is 64-bit. 
+There are two AXI Master ports that will be connected to the DRAM. M_AXI\_**MM2S** (READ channel) and M_AXI\_**S2MM** (WRITE channel). AXI masters can read and write the memory. In this design they will be connected to the Zynq HP (High Performance) AXI Slave ports. The width of the HP ports can be chaged in the Vivado design, however these ports are configured when PYNQ boots the board. You need to make sure the width of the ports in your Vivado design matches the PYNQ boot settings. In all official PYNQ images, the width of the HP ports is 64-bit. 
 
 If you set the HP ports to 32-bit if your design by mistake, you will likely see only 32-bits out of every 64-bits are transferred correctly. 
 
@@ -118,10 +118,10 @@ This connects the S_AXI_LITE port of the DMA to the Zynq PS M_AXI_GP0 port. This
 
 ## Memory mapped connections
 
-The DMA AXI master ports need to be connected to the PS DRAM. This will be done through the Zynq HP (AXI Slave) ports. These ports are not enabled by default. Internally there are two connections to PS memory that the four HP ports are connected to. HP0 and HP1 share a switch to one port, and HP2 and HP3 share a switch to the other. The difference may not be noticeable for this example and some design, but when only two HP ports are required, it is more efficient to connect them to HP ports that don't share a switch. i.e. HP 0 and HP 2 or HP 1 and HP 3 together. 
+The DMA AXI master ports need to be connected to the PS DRAM. This will be done through the Zynq HP (AXI Slave) ports. These ports are not enabled by default.  
 
 * Double click the Zynq PS block to open the customization settings
-* Go to the PS-PL Configuration, expand HP Slave AXI Interface and enable **S AXI HP0** and **S AXI HP2**
+* Go to the PS-PL Configuration, expand HP Slave AXI Interface and enable S AXI HP0 and S AXI HP1
 
 ![](./images/zynq_hp_ports.png)
 
