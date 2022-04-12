@@ -174,7 +174,7 @@ We'll use the PYNQ `allocate()` method to allocate a physically contiguous memor
 ```python
 	from pynq import allocate
 	import numpy as np 
-	py_buffer = allocate(shape=(1000,), dtype=np.int32)
+	py_buffer = allocate(shape=(100,), dtype=np.int32)
 ```
 
 Data can then be written to the registers:
