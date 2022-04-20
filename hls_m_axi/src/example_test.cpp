@@ -16,13 +16,15 @@
 
 #include <stdio.h>
 
-void example(volatile int *a);
+void example(volatile int *a, int length, int value);
 
 int main()
 {
   int i;
   int A[50];
   int B[50];
+  int value = 7;
+  int length = 50;
 
   printf("HLS AXI-Stream no side-channel data example\n");
   //Put data into A
@@ -31,11 +33,11 @@ int main()
   }
 
   //Call the hardware function
-  example(A);
+  example(A, length, value);
 
   //Run a software version of the hardware function to validate results
-  for(i=0; i < 50; i++){
-    B[i] = i + 100;
+  for(i=0; i < length; i++){
+    B[i] = i + value;
   }
 
   //Compare results
