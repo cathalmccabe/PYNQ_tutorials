@@ -59,5 +59,5 @@
 
 * [PYNQ example designs](www.pynq.io)
 
-[PYNQ Workshop material](https://github.com/Xilinx/PYNQ_Workshop/)
+* [PYNQ Workshop material](https://github.com/Xilinx/PYNQ_Workshop/)
 
