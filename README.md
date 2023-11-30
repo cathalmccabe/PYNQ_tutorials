@@ -23,41 +23,41 @@
 * [PYNQ example of controlling IP using GPIO](https://youtu.be/UBsCNPWudww)
 
 ## Tutorials on the PYNQ forum
-[Rebuild the PYNQ base overlay](./rebuild_the_base_overlay/rebuild_the_base_overlay.md)
+* [Rebuild the PYNQ base overlay](./rebuild_the_base_overlay/rebuild_the_base_overlay.md)
 
-[Create a new hardware design to use with PYNQ](https://discuss.pynq.io/t/tutorial-creating-a-hardware-design-for-pynq/145)
+* [Create a new hardware design to use with PYNQ](https://discuss.pynq.io/t/tutorial-creating-a-hardware-design-for-pynq/145)
 
-[Tutorial: Creating a new Verilog Module Overlay ](https://discuss.pynq.io/t/tutorial-creating-a-new-verilog-module-overlay/1530/3)
-[Tutorial: Using a new hardware design with PYNQ (AXI GPIO)](https://discuss.pynq.io/t/tutorial-using-a-new-hardware-design-with-pynq-axi-gpio/146)
+* [Tutorial: Creating a new Verilog Module Overlay ](https://discuss.pynq.io/t/tutorial-creating-a-new-verilog-module-overlay/1530/3)
+* [Tutorial: Using a new hardware design with PYNQ (AXI GPIO)](https://discuss.pynq.io/t/tutorial-using-a-new-hardware-design-with-pynq-axi-gpio/146)
 
 ### PS GPIO
 
-[Tutorial: Using PYNQ GPIO to control Zynq PS GPIO](./ps_gpio/readme.md)
-[Example: Using PS GPIO on the Kria KV260](./ps_gpio/kria_kv260_example/readme.md)
+* [Tutorial: Using PYNQ GPIO to control Zynq PS GPIO](./ps_gpio/readme.md)
+* [Example: Using PS GPIO on the Kria KV260](./ps_gpio/kria_kv260_example/readme.md)
 
 ### DMA
-[PYNQ DMA tutorial (Part 1: Hardware design)](https://discuss.pynq.io/t/tutorial-pynq-dma-part-1-hardware-design/3133)
-[PYNQ DMA tutorial (Part 2: Using the DMA from PYNQ)](https://discuss.pynq.io/t/tutorial-pynq-dma-part-2-using-the-dma-from-pynq/3134)
+* [PYNQ DMA tutorial (Part 1: Hardware design)](https://discuss.pynq.io/t/tutorial-pynq-dma-part-1-hardware-design/3133)
+* [PYNQ DMA tutorial (Part 2: Using the DMA from PYNQ)](https://discuss.pynq.io/t/tutorial-pynq-dma-part-2-using-the-dma-from-pynq/3134)
 
 ### HLS
 
-[Tutorial: using a HLS stream IP with DMA (Part 1: HLS design) ](https://discuss.pynq.io/t/tutorial-using-a-hls-stream-ip-with-dma-part-1-hls-design/3344)
-[Tutorial: using a HLS stream IP with DMA (Part 2: Vivado design)](https://discuss.pynq.io/t/tutorial-using-a-hls-stream-ip-with-dma-part-2-vivado-design/3345)
-[Tutorial: using a HLS stream IP with DMA (Part 3: Using the HLS IP from PYNQ)](https://discuss.pynq.io/t/tutorial-using-a-hls-stream-ip-with-dma-part-3-using-the-hls-ip-from-pynq/3346)
+* [Tutorial: using a HLS stream IP with DMA (Part 1: HLS design) ](https://discuss.pynq.io/t/tutorial-using-a-hls-stream-ip-with-dma-part-1-hls-design/3344)
+* [Tutorial: using a HLS stream IP with DMA (Part 2: Vivado design)](https://discuss.pynq.io/t/tutorial-using-a-hls-stream-ip-with-dma-part-2-vivado-design/3345)
+* [Tutorial: using a HLS stream IP with DMA (Part 3: Using the HLS IP from PYNQ)](https://discuss.pynq.io/t/tutorial-using-a-hls-stream-ip-with-dma-part-3-using-the-hls-ip-from-pynq/3346)
 
-[Tutorial: AXI Master interfaces with HLS IP](https://discuss.pynq.io/t/tutorial-axi-master-interfaces-with-hls-ip/4032)
+* [Tutorial: AXI Master interfaces with HLS IP](https://discuss.pynq.io/t/tutorial-axi-master-interfaces-with-hls-ip/4032)
 
 ## Resources
 
-[PYNQ webpage](http://www.pynq.io/)
+* [PYNQ webpage](http://www.pynq.io/)
 
-[PYNQ source code](https://github.com/Xilinx/PYNQ/)
+* [PYNQ source code](https://github.com/Xilinx/PYNQ/)
 
-[PYNQ documentation](http://pynq.readthedocs.io)
+* [PYNQ documentation](http://pynq.readthedocs.io)
 
-[PYNQ Support forum](http://www.pynq.io/support.html)
+* [PYNQ Support forum](http://www.pynq.io/support.html)
 
-[PYNQ example designs](www.pynq.io)
+* [PYNQ example designs](www.pynq.io)
 
 [PYNQ Workshop material](https://github.com/Xilinx/PYNQ_Workshop/)
 
